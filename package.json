@@ -1,0 +1,21 @@
+{
+  "name": "atividade01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.express.js",
+  "type": "module",
+  "scripts": {
+    "dev:express": "nodemon src/app.express.js",
+    "start:express": "node src/app.express.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.x.x",
+    "express": "^5.x.x"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
